@@ -17,6 +17,7 @@
 		DB6D15601B313D27006EB752 /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D155F1B313D27006EB752 /* Day_4_Photo_Bombers_AppTests.m */; };
 		DB6D156B1B314146006EB752 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D156A1B314146006EB752 /* PhotoCollectionViewCell.m */; };
 		DB6D156D1B31455E006EB752 /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6D156C1B31455E006EB752 /* audi.jpg */; };
+		DBC9D6681B34154100C5464B /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9D6671B34154100C5464B /* PhotoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		DB6D156A1B314146006EB752 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		DB6D156C1B31455E006EB752 /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audi.jpg; sourceTree = "<group>"; };
 		DB6D156E1B3171D4006EB752 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = "Day 4 Photo Bombers App/Podfile"; sourceTree = "<group>"; };
+		DBC9D6661B34154100C5464B /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		DBC9D6671B34154100C5464B /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				DB6D15501B313D26006EB752 /* Images.xcassets */,
 				DB6D15521B313D26006EB752 /* LaunchScreen.xib */,
 				DB6D15431B313D26006EB752 /* Supporting Files */,
+				DBC9D6661B34154100C5464B /* PhotoController.h */,
+				DBC9D6671B34154100C5464B /* PhotoController.m */,
 			);
 			path = "Day 4 Photo Bombers App";
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				DB6D156B1B314146006EB752 /* PhotoCollectionViewCell.m in Sources */,
 				DB6D15491B313D26006EB752 /* AppDelegate.m in Sources */,
 				DB6D15461B313D26006EB752 /* main.m in Sources */,
+				DBC9D6681B34154100C5464B /* PhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
