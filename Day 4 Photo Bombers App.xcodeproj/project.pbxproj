@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6ACB690577D0178D164EB6CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 520BD967162F6DD1654343E5 /* libPods.a */; };
+		DB5157D01B373AB100E4DA32 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5157CF1B373AB100E4DA32 /* DetailViewController.m */; };
 		DB6D15461B313D26006EB752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D15451B313D26006EB752 /* main.m */; };
 		DB6D15491B313D26006EB752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D15481B313D26006EB752 /* AppDelegate.m */; };
 		DB6D154C1B313D26006EB752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6D154B1B313D26006EB752 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 		520BD967162F6DD1654343E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBD85624C2DF3D7E220072D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BB2FA4ABF4D823E43A344911 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5157CE1B373AB100E4DA32 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DB5157CF1B373AB100E4DA32 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		DB6D15401B313D26006EB752 /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6D15441B313D26006EB752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6D15451B313D26006EB752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				DB6D15481B313D26006EB752 /* AppDelegate.m */,
 				DB6D154A1B313D26006EB752 /* ViewController.h */,
 				DB6D154B1B313D26006EB752 /* ViewController.m */,
+				DB5157CE1B373AB100E4DA32 /* DetailViewController.h */,
+				DB5157CF1B373AB100E4DA32 /* DetailViewController.m */,
 				DB6D154D1B313D26006EB752 /* Main.storyboard */,
 				DB6D15691B314146006EB752 /* PhotoCollectionViewCell.h */,
 				DB6D156A1B314146006EB752 /* PhotoCollectionViewCell.m */,
@@ -299,6 +304,7 @@
 				DB6D15491B313D26006EB752 /* AppDelegate.m in Sources */,
 				DB6D15461B313D26006EB752 /* main.m in Sources */,
 				DBC9D6681B34154100C5464B /* PhotoController.m in Sources */,
+				DB5157D01B373AB100E4DA32 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
